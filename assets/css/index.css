@@ -1,0 +1,114 @@
+/*
+  Config geral
+*/
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+html{
+  font-size:62.5%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+:root{
+  --black:#000;
+  --white:#fff;
+  --blue:#0a1128;
+}
+/*
+  Fonts
+*/
+h1{
+  font-size:6rem;
+}
+h2{
+  font-size:2.4rem;
+}
+h3{
+  font-size:2rem;
+}
+p{
+  font-size:2.3rem;
+}
+li{
+  font-size:1.8rem;
+}
+span{
+  font-size:1.6rem;
+}
+
+/*
+  Cabeçalho
+*/
+.header-container{
+  width:100%;
+  height:6rem;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  background:var(--white);
+}
+.logo{
+  font-size:2.3rem;
+  font-weight:bold;
+}
+.primary-nav{
+  width:max-content;
+  height:inherit;
+  display:flex;
+  align-items:center;
+}
+.nav-list{
+  display:flex;
+  align-items:center;
+}
+.nav-list li{
+  list-style:none;
+  padding:0px 2rem;
+}
+.nav-list a, .logo a{
+  text-decoration:none;
+  color:var(--black);
+}
+
+/*
+  Introdução
+*/
+ #section-container{
+  width:100%;
+  min-height:100vh;
+  padding:5rem 3rem 11rem 3rem;
+  background-image: url('../img/main-bg.svg');
+  background-size: cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  color:var(--white);
+ }
+ .section-wrapper{
+  width:100%;
+  max-width:120rem;
+  height:auto;
+  margin:0px auto;
+  display:grid;
+  grid-template-columns:1fr 1.5fr;
+  gap:5rem;
+  justify-content:center;
+  align-items:center;
+ }
+ .content-container h1{
+  margin-bottom:5rem;
+ }
+ .section-img{
+  max-width:100%;
+  width:100%;
+ }
+
+ /*
+  Rodapé
+*/
+.footer-container{
+  width:100%;
+  height:8rem;
+  padding:4% 0rem;
+  text-align:center;
+}
